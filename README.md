@@ -1,6 +1,8 @@
 ![Header](Header.png)
 
-<pre align="center">yarn add @op-engineering/op-s2</pre>
+> **Fork notice:** `@craftzdog/op-s2` is a fork of [`@op-engineering/op-s2`](https://github.com/OP-Engineering/op-s2) that adds the iOS `service` / `accessGroup` options from [OP-Engineering/op-s2#24](https://github.com/OP-Engineering/op-s2/pull/24). Prefer the upstream package once that lands.
+
+<pre align="center">yarn add @craftzdog/op-s2</pre>
 
 <div align="center">
   <a align="center" href="https://github.com/ospfranco?tab=followers">

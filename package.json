@@ -1,7 +1,7 @@
 {
-	"name": "@op-engineering/op-s2",
-	"version": "0.0.0",
-	"description": "Modern secure storage for React Native",
+	"name": "@craftzdog/op-s2",
+	"version": "2.2.0",
+	"description": "Modern secure storage for React Native (fork of @op-engineering/op-s2 with iOS service/accessGroup support)",
 	"main": "./lib/commonjs/index.js",
 	"module": "./lib/module/index.js",
 	"types": "./lib/typescript/src/index.d.ts",
@@ -59,16 +59,17 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/OP-Engineering/op-s2.git"
+		"url": "git+https://github.com/craftzdog/op-s2.git"
 	},
 	"author": "Oscar Franco <ospfranco@gmail.com> (https://github.com/ospfranco)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/OP-Engineering/op-s2/issues"
+		"url": "https://github.com/craftzdog/op-s2/issues"
 	},
-	"homepage": "https://github.com/OP-Engineering/op-s2#readme",
+	"homepage": "https://github.com/craftzdog/op-s2#readme",
 	"publishConfig": {
-		"registry": "https://registry.npmjs.org/"
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
 	},
 	"devDependencies": {
 		"@evilmartians/lefthook": "^1.5.0",
